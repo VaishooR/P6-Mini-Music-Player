@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h4>Music Player</h4>
+        <img id="track_image" >
+        <p id="title">title.mp3</p>
+        <marquee id="artist">Artist name</marquee>
+        <input type="range" id="duration-slider" min="0" max="100" value="0" onclick="change_duration()">
+        <button id="pre" onclick="previous_song()"><i class="fa fa-step-backward"></i></button>
+        <button id="play" onclick="justplay()"><i class="fa fa-play"></i></button>
+        <button id="next" onclick="next_song()"><i class="fa fa-step-forward"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
