@@ -22,25 +22,25 @@ let track=document.createElement('audio');
 let All_song=[
     {
         name: 'Asku Laska',
-        path: 'songs/Asku-Laska.mp3',
+        path: 'Asku-Laska.mp3',
         img: 'images/nanban2.jpeg',
         artist:'SuVi, Chinmayi, Vijay Prakash'
     },
     {
         name: 'Irukkana',
-        path: 'songs/Irukkana.mp3',
+        path: 'Irukkana.mp3',
         img: 'images/nanban1.jpeg',
         artist:'Vijay Prakash, Javed Ali and Sunandha Chauhan'
     },
     {
         name: 'Unnai Naan',
-        path: 'songs/Unnai-Naan.mp3',
+        path: 'Unnai-Naan.mp3',
         img: 'images/unnai-naan.jpeg',
         artist:'Hariharan'
     },
     {
         name: 'Unnai Partha Pinbu',
-        path: 'songs/Unnai-Paartha-Pinbu.mp3',
+        path: 'Unnai-Paartha-Pinbu.mp3',
         img: 'images/ajith.jpeg',
         artist:'Bharadwaj, S. P. Balasubrahmanyam'
     },
